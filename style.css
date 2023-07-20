@@ -1,23 +1,23 @@
 @font-face {
-  font-family: "Hagrid Trial"; url("https://github.com/MarinaMorskaya97/vyazan/raw/main/vz/fonts/Hagrid-Text-Extrabold-trial.woff") format('woff');
+  font-family: "Hagrid Trial"; src: url("font/Hagrid-Text-Extrabold-trial.woff") format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Hagrid"; url("https://github.com/MarinaMorskaya97/vyazan/raw/main/vz/fonts/Hagrid-Regular.woff") format('woff');
+  font-family: "Hagrid"; src: url("font/Hagrid-Text-Regular.woff") format('woff');
   font-weight: Regular;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Gilroy"; url("https://github.com/MarinaMorskaya97/vyazan/raw/main/vz/fonts/Gilroy-Regular.woff") format('woff');
+  font-family: "Gilroy"; src: url("font/Gilroy-Regular.woff") format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Gilroy"; url("https://github.com/MarinaMorskaya97/vyazan/raw/main/vz/fonts/Gilroy-Bold.woff") format('woff');
+  font-family: "Gilroy"; src: url("font/Gilroy-Bold.woff") format('woff');
   font-weight: 700;
   font-style: normal;
 }
