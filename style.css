@@ -82,7 +82,7 @@ body {
   padding-top: 6px;
   padding-left: 21px;
   padding-right: 21px;
-  padding-bottom: 7px;
+  padding-bottom: 8px;
   font-family: "Gilroy";
   font-size: 16px;
   font-weight: 400;
@@ -102,7 +102,7 @@ body {
   position: relative;
   width: 612px;
   top: 31px;
-  left: 328px;
+  left: 327px;
 }
 
 h1 {
@@ -113,7 +113,7 @@ h1 {
   line-height: 94.35px;
   text-transform: uppercase;
   position: absolute;
-  top: 140px;
+  top: 135px;
   left: 50px;
   max-width: 409px;
 }
