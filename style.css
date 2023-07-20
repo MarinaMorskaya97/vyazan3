@@ -48,7 +48,7 @@ body {
 .header-logo {
   padding-left: 42px;
   padding-right: 76px;
-  padding-top: 2px;
+  padding-top: 0px;
   hight: 28px;
   width: 115px;
 }
@@ -82,7 +82,7 @@ body {
   padding-top: 6px;
   padding-left: 21px;
   padding-right: 21px;
-  padding-bottom: 6px;
+  padding-bottom: 7px;
   font-family: "Gilroy";
   font-size: 16px;
   font-weight: 400;
