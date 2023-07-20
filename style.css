@@ -71,7 +71,7 @@ body {
 .nav {
   flex-flow: row nowrap;
   margin-left: 10.5px;
-  margin-right: 10.7px;
+  margin-right: 10.8px;
   }
   
   .button {
@@ -113,7 +113,7 @@ h1 {
   line-height: 94.35px;
   text-transform: uppercase;
   position: absolute;
-  top: 146px;
+  top: 148px;
   left: 50px;
   max-width: 409px;
 }
@@ -185,7 +185,7 @@ hr {
   display: flex;
   align-items: flex-start;
   gap: 62.19px;
-  margin-top: 22px;
+  margin-top: 40px;
   margin-left: 40px;
 }
 
