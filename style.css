@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Hagrid Trial"; url("https://github.com/MarinaMorskaya97/vyazan/raw/main/vz/fonts/Hagrid-Text-Extrabold-trial.woff") format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hagrid"; url("https://github.com/MarinaMorskaya97/vyazan/raw/main/vz/fonts/Hagrid-Regular.woff") format('woff');
+  font-weight: Regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy"; url("https://github.com/MarinaMorskaya97/vyazan/raw/main/vz/fonts/Gilroy-Regular.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy"; url("https://github.com/MarinaMorskaya97/vyazan/raw/main/vz/fonts/Gilroy-Bold.woff") format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  width: 1000px;
+}
+
+.header {
+  height: 27px;
+  padding-top: 4px;
+}
+
+.header-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-logo {
+  padding-left: 42px;
+  padding-right: 76px;
+  padding-top: 2px;
+  hight: 28px;
+  width: 115px;
+}
+
+.nav a {
+  text-decoration: none;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-bottom-color:#000000;
+  font-family: "Gilroy";
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 4px; 
+}
+.nav a:hover {
+  color: #FF27B4;
+  border-bottom-color:#FF27B4;
+}
+.nav {
+  flex-flow: row nowrap;
+  margin-left: 10.5px;
+  margin-right: 10.5px;
+  }
+  
+  .button {
+  background-color: #D4F3FE;
+  color: #000000;
+  text-decoration: none;
+  line-height: 16px; 
+  padding-top: 6px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-bottom: 6px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  font-weight: 400;
+  border-top-left-radius: 59px;
+  border-top-right-radius: 59px;
+  border-bottom-left-radius: 59px;
+  border-bottom-right-radius: 59px; 
+  margin-right: 60px;
+  margin-left: 78px;
+}
+
+.button:hover {
+  background-color: #FF27B4;
+}
+
+.card-image {
+  position: relative;
+  width: 612px;
+  top: 31px;
+  left: 328px;
+}
+
+h1 {
+  font-family: "Hagrid Trial";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: Extrabold;
+  line-height: normal;
+  letter-spacing: 5.9px;
+  line-height: 94.35px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 119px;
+  left: 50px;
+  max-width: 409px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Gilroy";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.079px;
+  position: absolute;
+  top: 133px;
+  left: 50px;
+  max-width: 409px;
+}
+
+h3 {
+  font-family: "Hagrid";
+ font-size: 36px;
+font-style: normal;
+font-weight: 350;
+line-height: 39.464px; 
+margin-top: 16px;
+margin-left: 16px;  
+}
+
+.section1text{
+  font-family: "Gilroy";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.732px; 
+  max-width: 443px;
+  margin-top: -20px;
+margin-left: 19px;  
+}
+
+.icon{
+   position: absolute;
+  top: 373.49px;
+  left: 50px;
+ }
+.section1 {
+  display: block;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: left;
+  width: 940px;
+  margin-top: 40px;
+  margin-left: 119px;
+  padding-left: 0px;
+}
+
+.section1 ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+hr {
+    display: block;
+    margin-top: 58px;
+   margin-left: 40px;
+   margin-right: 40px;
+      } 
+.footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 62.19px;
+  margin-top: 22px;
+  margin-left: 40px;
+}
+
+.textcols {
+	white-space: nowrap;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+   line-height: 6px;
+	vertical-align: top;
+	margin-left: 302px;
+ 	font-size: 16px;
+  font-family: Gilroy;
+  font-weight: 400;
+  padding-top: 0px;
+}
+.textcols-item:last-child {
+	margin-left: 0 ;
+  }
+
+  .footer-logo: {
+  padding-left: 42px;
+  padding-right: 76px;
+  padding-top: 3px;
+  hight: 50px;
+    }
