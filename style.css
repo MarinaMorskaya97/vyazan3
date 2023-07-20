@@ -109,11 +109,11 @@ h1 {
   font-family: "Hagrid Text Trial";
   font-size: 96px;
   font-style: normal;
-  letter-spacing: 3.5px;
+  letter-spacing: 3.6px;
   line-height: 94.35px;
   text-transform: uppercase;
   position: absolute;
-  top: 148px;
+  top: 144px;
   left: 50px;
   max-width: 409px;
 }
@@ -207,7 +207,7 @@ hr {
 	margin-left: 0 ;
   }
 
-  .footer-logo: {
+  .footer-logo {
   padding-left: 42px;
   padding-right: 76px;
   padding-top: 3px;
