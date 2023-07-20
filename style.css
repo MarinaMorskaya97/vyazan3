@@ -108,7 +108,7 @@ h1 {
   top: 140px;
   left: 50px;
   max-width: 409px;
-	max-hight: 174px;
+min-height: 174px;
 }
 
 h2 {
