@@ -1,7 +1,6 @@
-/* подгоняла сайт под мак, на винде не смотрите) */
 @font-face {
   font-family: "Hagrid Text Trial"; src: 
-	  url("fonts_2/HagridTextTrial-Extrabold.woff") format('woff');
+	url("fonts_2/HagridTextTrial-Extrabold.woff") format('woff');
 	url("fonts_2/HagridTextTrial-Extrabold.woff2") format('woff2');
   font-weight: 700;
   font-style: normal;
@@ -9,7 +8,7 @@
 
 @font-face {
   font-family: "Hagrid"; src: 
-	  url("fonts_2/Hagrid-Regular.woff") format('woff');
+	url("fonts_2/Hagrid-Regular.woff") format('woff');
 	url("fonts_2/Hagrid-Regular.woff2") format('woff2');
   font-weight: Regular;
   font-style: normal;
@@ -17,7 +16,7 @@
 
 @font-face {
   font-family: "Gilroy"; src: 
-	  url("fonts_2/Gilroy-Regular.woff") format('woff');
+	url("fonts_2/Gilroy-Regular.woff") format('woff');
 	url("fonts_2/Gilroy-Regular.woff2") format('woff2');
   font-weight: 400;
   font-style: normal;
@@ -25,7 +24,7 @@
 
 @font-face {
   font-family: "Gilroy"; src: 
-	  url("fonts_2/Gilroy-Bold.woff") format('woff');
+	url("fonts_2/Gilroy-Bold.woff") format('woff'); 
 	url("fonts_2/Gilroy-Bold.woff2") format('woff2');
   font-weight: 700;
   font-style: normal;
@@ -33,28 +32,25 @@
 
 body {
   width: 1000px;
+  display: block;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 14px;
+  box-sizing: border-box;
+  margin: 0px;
 }
 
-.header {
-  height: 27px;
-  padding-top: 4px;
-}
-
-.header-line {
+header{
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
   align-items: flex-start;
-}
-
-.header-logo {
-  padding-left: 40px;
-  padding-right: 76px;
-  padding-top: 3px;
-  hight: 28px;
-  width: 115px;
-}
-
-.nav a {
+  }
+nav a {
+  margin-right: 20px;
+  box-sizing: border-box;
   text-decoration: none;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
   border-bottom-color:#000000;
@@ -63,27 +59,31 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 4px; 
-}
-.nav a:hover {
+  }
+nav a:last-child {
+	margin-right: 0 ;
+  }
+
+nav a:hover {
   color: #FF27B4;
   border-bottom-color:#FF27B4;
-}
-.nav {
-  flex-flow: row nowrap;
-  margin-left: 10.5px;
-  margin-right: 10.8px;
   }
-  
-  .button {
+
+nav {
+  margin-right: 107px;
+  margin-left: 100px;
+  margin-top: -4px;
+  }
+
+.button {
   background-color: #D4F3FE;
   color: #000000;
   text-decoration: none;
-  line-height: 16px; 
+  line-height: 15px; 
   padding-top: 6px;
   padding-left: 21px;
   padding-right: 21px;
-  padding-bottom: 8px;
+  padding-bottom: 6px;
   font-family: "Gilroy";
   font-size: 16px;
   font-weight: 400;
@@ -91,32 +91,21 @@ body {
   border-top-right-radius: 59px;
   border-bottom-left-radius: 59px;
   border-bottom-right-radius: 59px; 
-  margin-right: 60px;
-  margin-left: 78px;
-}
+ 
+ }
 
 .button:hover {
   background-color: #FF27B4;
 }
 
 .card-image {
-  position: relative;
-  width: 612px;
-  top: 31px;
-  left: 328px;
-}
-
-h1 {
-  font-family: "Hagrid Text Trial";
-  font-size: 96px;
-  font-style: normal;
-  letter-spacing: 3.6px;
-  line-height: 94.35px;
-  text-transform: uppercase;
   position: absolute;
-  top: 144px;
-  left: 50px;
-  max-width: 409px;
+  top: 69.05px;
+  left: 337px;
+}
+ .toplabel-item {
+   position: relative;
+   margin-top: 120px;
 }
 
 h2 {
@@ -125,50 +114,64 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 35.079px;
-  position: absolute;
-  top: 134px;
-  left: 50px;
+  }
+
+.title {
+  position: relative;
+  margin-top: -73px;
+  max-weight: 174px;
   max-width: 409px;
+  min-height: 174px;
+}
+
+h1 {
+  font-family: "Hagrid Text Trial";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  line-height: 94.56px;
+  text-transform: uppercase;
+}
+
+.label{
+  position: relative;
+  margin-top: -68px;
 }
 
 h3 {
   font-family: "Hagrid";
- font-size: 36px;
-font-style: normal;
-font-weight: 350;
-line-height: 39.464px; 
-margin-top: 20px;
-margin-left: 16px;  
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39.464px; 
+  margin-top: 13px;
+  margin-left: 17px; 
+  letter-spacing: 0.8px;
 }
 
-.section1text{
+.section1text {
   font-family: "Gilroy";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 21.96px; 
   max-width: 443px;
-  margin-top: -26px;
-margin-left: 19px;  
+  margin-top: -20px;
+  margin-left: 19px;
 }
 
-.icon{
-   position: absolute;
-  top: 373.49px;
-  left: 50px;
- }
-.section1 {
+
+.section {
   display: block;
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: left;
-  width: 940px;
-  margin-top: 40px;
-  margin-left: 119px;
-  padding-left: 0px;
+  padding-top: 81px;
+  padding-left: 77px;
 }
 
-.section1 ul {
+.section ul {
   display: flex;
   flex-flow: row nowrap;
   list-style: none;
@@ -177,40 +180,34 @@ margin-left: 19px;
 }
 
 hr {
-    display: block;
-    margin-top: 48px;
-   margin-left: 40px;
-   margin-right: 40px;
+   display: block;
+   margin-top: 50px;
+  
       } 
 .footer {
+  width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
   align-items: flex-start;
-  gap: 62.19px;
-  margin-top: 28px;
-  margin-left: 40px;
+  margin-top: 21px;
 }
 
 .textcols {
-	white-space: nowrap;
+  white-space: nowrap;
+  margin-left: 350px;
 }
 .textcols-item {
-	white-space: normal;	
-	display: inline-block;
-   line-height: 6px;
-	vertical-align: top;
-	margin-left: 301.5px;
- 	font-size: 16px;
+  box-sizing: border-box;
+  white-space: normal;	
+  display: inline-block;
+  line-height: 6px;
+  vertical-align: top;
+  font-size: 16px;
   font-family: Gilroy;
   font-weight: 400;
-  padding-top: 0px;
+  margin-right: 59px;
+  margin-top: 4px;
+ 
 }
-.textcols-item:last-child {
-	margin-left: 0 ;
-  }
-
-  .img {
-  padding-left: 42px;
-  padding-right: 76px;
-  padding-top: 3px;
-  hight: 50px;
-    }
