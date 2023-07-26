@@ -200,6 +200,7 @@ hr {
 .textcols-item {
   box-sizing: border-box;
   white-space: normal;	
+  vflex-wrap: nowrap;
   display: inline-block;
   line-height: 16px;
   vertical-align: top;
