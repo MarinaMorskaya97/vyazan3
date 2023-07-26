@@ -199,14 +199,14 @@ hr {
 }
 .textcols-item {
   box-sizing: border-box;
-	white-space: normal;	
-	display: inline-block;
-  line-height: 6px;
-	vertical-align: top;
- 	font-size: 16px;
+  white-space: normal;	
+  display: inline-block;
+  line-height: 16px;
+  vertical-align: top;
+  font-size: 16px;
   font-family: Gilroy;
   font-weight: 400;
   margin-right: 59px;
-  margin-top: 4px;
+  margin-top: 0px;
  
 }
