@@ -197,9 +197,10 @@ hr {
   white-space: nowrap;
 }
 .textcols-item {
-  white-space: normal;	
+  white-space: normal;
+  display: flex;
   display: inline-block;
-  line-height: 6px;
+  line-height: 16px;
   vertical-align: top;
   margin-left: 302px;
   font-size: 16px;
