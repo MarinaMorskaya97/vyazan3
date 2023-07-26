@@ -201,7 +201,7 @@ hr {
   box-sizing: border-box;
   white-space: normal;	
   display: inline-block;
-  line-height: 16px;
+  line-height: 22.02px;
   vertical-align: top;
   font-size: 16px;
   font-family: Gilroy;
@@ -212,7 +212,7 @@ hr {
 }
 
 .textcols-item p {
- margin-top: 10px;
+ margin-top: 0px;
 }
 p {
 margin: 0px;
