@@ -104,8 +104,8 @@ nav {
   left: 337px;
 }
  .toplabel-item {
-    position: relative;
-    margin-top: 120px;
+  position: relative;
+  margin-top: 120px;
 }
 
 h2 {
@@ -181,8 +181,8 @@ h3 {
 hr {
    display: block;
    margin-top: 50px;
-  
-      } 
+  } 
+
 .footer {
   width: 100%;
   display: flex;
@@ -194,19 +194,19 @@ hr {
 }
 
 .textcols {
-	white-space: nowrap;
+  hite-space: nowrap;
   margin-left: 350px;
 }
 .textcols-item {
   box-sizing: border-box;
-	white-space: normal;	
-	display: inline-block;
-  line-height: 6px;
-	vertical-align: top;
- 	font-size: 16px;
+  white-space: normal;	
+  display: inline-block;
+  line-height: 16px;
+  vertical-align: top;
+  font-size: 16px;
   font-family: Gilroy;
   font-weight: 400;
   margin-right: 59px;
-  margin-top: 4px;
+  margin-top: 0px;
  
 }
