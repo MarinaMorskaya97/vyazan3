@@ -205,7 +205,8 @@ hr {
   padding-top: 0px;
 }
 .textcols-item:last-child {
-	margin-right: 0 ;
+	margin-right: 0px;
+	margin-left: 0px;
   }
 
   .footer-logo: {
