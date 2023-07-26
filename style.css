@@ -184,29 +184,29 @@ hr {
   } 
 
 .footer {
+  width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
   align-items: flex-start;
-  margin-top: 22px;
+  margin-top: 21px;
 }
 
 .textcols {
 	white-space: nowrap;
+  margin-left: 350px;
 }
 .textcols-item {
-  white-space: normal;	
-  display: inline-block;
-  line-height: 16px;
-  vertical-align: top;
-  margin-right: 62.19px;
-  font-size: 16px;
+  box-sizing: border-box;
+	white-space: normal;	
+	display: inline-block;
+  line-height: 6px;
+	vertical-align: top;
+ 	font-size: 16px;
   font-family: Gilroy;
   font-weight: 400;
-  padding-top: 0px;
+  margin-right: 59px;
+  margin-top: 4px;
+ 
 }
-.textcols-item:last-child {
-	margin-right: 0px;
-  }
-
-  .footer-logo: {
-  margin-right: 302px;
-    }
