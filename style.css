@@ -180,7 +180,7 @@ h3 {
 
 hr {
    display: block;
-   margin-top: 50px;
+   margin-top: 55px;
    margin-bottom: 0px
   } 
 
@@ -218,3 +218,7 @@ hr {
 p {
 margin: 0px;
 }
+
+.footer-logo {
+margin-top: -2px;
+	}
