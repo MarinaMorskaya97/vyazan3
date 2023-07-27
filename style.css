@@ -208,7 +208,7 @@ hr {
   font-family: Gilroy;
   font-weight: 400;
   margin-right: 59px;
-  margin-top: 0px;
+  margin-top: -2px;
  
 }
 
@@ -220,5 +220,5 @@ margin: 0px;
 }
 
 .footer-logo {
-margin-top: -2px;
+margin-top: 3.5px;
 	}
